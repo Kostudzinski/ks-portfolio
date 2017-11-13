@@ -264,7 +264,7 @@ font-family: 'Rajdhani', sans-serif;
 
 .name {
     text-align: center;
-    font-size: 50px;
+    font-size: 4.5vw;
     opacity: 0;
     transition: 7s;
 }
@@ -281,7 +281,7 @@ font-family: 'Rajdhani', sans-serif;
 .ml5 {
     position: relative;
     font-weight: 300;
-    font-size: 35px;
+    font-size: 3.5vw;
     color: #402d2d;
     opacity: 0;
 }
@@ -372,7 +372,7 @@ font-family: 'Rajdhani', sans-serif;
 
 .header-name {
     text-align: center;
-    font-size: 50px;
+    font-size: 4vw;
     margin: 0;
     padding: 40px;
     opacity: 0;
@@ -415,7 +415,7 @@ font-family: 'Rajdhani', sans-serif;
 
 .text-section {
     width: 50%;
-    font-size: 20px;
+    font-size: 1.5vw;
     text-align: justify;
     margin: auto;
 }
@@ -426,7 +426,7 @@ font-family: 'Rajdhani', sans-serif;
     border: 2px solid #606060;
     margin: auto;
     text-align: center;
-    font-size: 17px;
+    font-size: 1.8vw;
     line-height: 50px;
     margin-top: 120px;
     cursor: pointer;
@@ -481,7 +481,7 @@ font-family: 'Rajdhani', sans-serif;
 #container-skills {
     text-align: center;
     color: white;
-    font-size: 25px;
+    font-size: 1.5vw;
 }
 
 #container-skills p {
@@ -507,7 +507,7 @@ font-family: 'Rajdhani', sans-serif;
 
 .skill-icons {
     text-decoration: none;
-    font-size: 15px;
+    font-size: 1.5vw;
     color: #606060;
 }
 
@@ -585,13 +585,13 @@ font-family: 'Rajdhani', sans-serif;
     z-index: 5;
     color: white;
     text-align: center;
-    font-size: 70px;
+    font-size: 4.5vw;
     text-transform: uppercase;
     transition: 1s;
 }
 
 .added {
-    font-size: 25px;
+    font-size: 1.8vw;
     width: 70%;
     top: 70%;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
@@ -609,12 +609,19 @@ font-family: 'Rajdhani', sans-serif;
     color: #7e01a3;
 }
 
-.slider-arrows a {
+.slider-arrows {
+    width: 100vw;
     position: relative;
+    height: auto;
+}
+
+.slider-arrows div {
+    position: absolute;
+    display: inline;
     top: 20vw;
     font-size: 50px;
     color: white;
-    width: 100%;
+    cursor: pointer;
 }
 
 .prev-slide {
@@ -624,7 +631,7 @@ font-family: 'Rajdhani', sans-serif;
 
 .next-slide {
     z-index: 5;
-    left: 92vw;
+    right: 1vw;
 }
 
 .slider-arrows a:hover {
@@ -660,7 +667,6 @@ font-family: 'Rajdhani', sans-serif;
 .show-icons {
     opacity: 1;
     top: 0;
-    animation: grayscale;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
