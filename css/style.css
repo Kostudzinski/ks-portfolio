@@ -214,6 +214,7 @@ font-family: 'Rajdhani', sans-serif;
     position: absolute;
     bottom: 50px;
     filter: grayscale(.1);
+    -webkit-filter: grayscale(.1);
 }
 
 .black-cover {
@@ -263,7 +264,7 @@ font-family: 'Rajdhani', sans-serif;
 
 .name {
     text-align: center;
-    font-size: 4vw;
+    font-size: 50px;
     opacity: 0;
     transition: 7s;
 }
@@ -280,7 +281,7 @@ font-family: 'Rajdhani', sans-serif;
 .ml5 {
     position: relative;
     font-weight: 300;
-    font-size: 3vw;
+    font-size: 35px;
     color: #402d2d;
     opacity: 0;
 }
@@ -371,7 +372,7 @@ font-family: 'Rajdhani', sans-serif;
 
 .header-name {
     text-align: center;
-    font-size: 4vw;
+    font-size: 50px;
     margin: 0;
     padding: 40px;
     opacity: 0;
@@ -414,7 +415,7 @@ font-family: 'Rajdhani', sans-serif;
 
 .text-section {
     width: 50%;
-    font-size: 1.5vw;
+    font-size: 20px;
     text-align: justify;
     margin: auto;
 }
@@ -425,7 +426,7 @@ font-family: 'Rajdhani', sans-serif;
     border: 2px solid #606060;
     margin: auto;
     text-align: center;
-    font-size: 1.7vw;
+    font-size: 17px;
     line-height: 50px;
     margin-top: 120px;
     cursor: pointer;
@@ -512,6 +513,7 @@ font-family: 'Rajdhani', sans-serif;
 
 .code-programs {
     filter: grayscale(0%);
+    -webkit-filter: grayscale(0);
     transition: 1s;
     position: relative;
     top: 100px;
@@ -521,6 +523,7 @@ font-family: 'Rajdhani', sans-serif;
 
 .code-programs>img:hover {
     filter: grayscale(0%);
+    -webkit-filter: grayscale(0);
 }
 
 .skill-text {
@@ -609,7 +612,7 @@ font-family: 'Rajdhani', sans-serif;
 .slider-arrows a {
     position: relative;
     top: 20vw;
-    font-size: 5vw;
+    font-size: 50px;
     color: white;
     width: 100%;
 }
@@ -621,7 +624,7 @@ font-family: 'Rajdhani', sans-serif;
 
 .next-slide {
     z-index: 5;
-    left: 91vw;
+    left: 92vw;
 }
 
 .slider-arrows a:hover {
@@ -684,6 +687,6 @@ font-family: 'Rajdhani', sans-serif;
 }
 
 @keyframes grayscale {
-    0% {filter: grayscale(0%)}
-    100% {filter: grayscale(70%)}
+    0% {filter: grayscale(0%); -webkit-filter: grayscale(0);}
+    100% {filter: grayscale(70%); -webkit-filter: grayscale(0.7);}
 }
