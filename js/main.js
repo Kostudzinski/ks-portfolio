@@ -102,6 +102,7 @@ function addMargin() {
 
 function burgerMove() {
     $('.nav-icon').addClass('move-burger');
+    $('.eng').addClass('show-letters');
 }
 
 function showTumblr() {
@@ -244,8 +245,6 @@ function showIcons() {
                 element.addClass("show-icons");
             }, index == 0 ? 0 : 500 * index);
         })
-    } else {
-        element.removeClass('show-icons');
     }
 };
 

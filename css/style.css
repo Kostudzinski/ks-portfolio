@@ -5,7 +5,7 @@ font-family: 'Rajdhani', sans-serif;
     backface-visibility: hidden;
 }
 
-::-moz-selection { /* Code for Firefox */
+::-moz-selection {
     color: #e7e7e7;
     background: #606060;
 }
@@ -33,6 +33,18 @@ font-family: 'Rajdhani', sans-serif;
   transition: .8s ease-in-out;
   cursor: pointer;
   z-index: 10;
+}
+
+.eng {
+    font-size: 30px;
+    color: black;
+    position: fixed;
+    z-index: 10;
+    right: 100px;
+    top: 25px;
+    transition: 2s;
+    opacity: 0;
+    text-decoration: none !important;
 }
 
 .nav-icon span {
@@ -281,7 +293,7 @@ font-family: 'Rajdhani', sans-serif;
 .ml5 {
     position: relative;
     font-weight: 300;
-    font-size: 3.5vw;
+    font-size: 3.2vw;
     color: #402d2d;
     opacity: 0;
 }
@@ -501,7 +513,7 @@ font-family: 'Rajdhani', sans-serif;
     margin: auto;
 }
 
-.row {
+.icon-holder {
     padding-bottom: 70px;
 }
 
@@ -542,6 +554,10 @@ font-family: 'Rajdhani', sans-serif;
     opacity: 1;
 }
 
+#slider:hover .fa {
+    color: lightgrey;
+}
+
 .slide-show {
     position: absolute;
     height: 100%;
@@ -577,7 +593,7 @@ font-family: 'Rajdhani', sans-serif;
 
 .slider-caption {
     position: absolute;
-    top: 50%;
+    top: 40%;
     transform: translateY(-50%);
     left: 0;
     right: 0;
@@ -593,14 +609,13 @@ font-family: 'Rajdhani', sans-serif;
 .added {
     font-size: 1.8vw;
     width: 70%;
-    top: 70%;
+    top: 60%;
     text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
 }
 
 .single-slide .links-portfolio a {
     color: white;
     text-decoration: none;
-    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
     position: relative;
     transition: 1s;
 }
@@ -618,7 +633,7 @@ font-family: 'Rajdhani', sans-serif;
 .slider-arrows div {
     position: absolute;
     display: inline;
-    top: 20vw;
+    top: 22vw;
     font-size: 50px;
     color: white;
     cursor: pointer;
@@ -626,15 +641,15 @@ font-family: 'Rajdhani', sans-serif;
 
 .prev-slide {
     z-index: 5;
-    left: 1vw;
+    left: 8vw;
 }
 
 .next-slide {
     z-index: 5;
-    right: 1vw;
+    right: 8vw;
 }
 
-.slider-arrows a:hover {
+.fa:hover {
     color: white;
 }
 
@@ -667,6 +682,7 @@ font-family: 'Rajdhani', sans-serif;
 .show-icons {
     opacity: 1;
     top: 0;
+    animation: grayscale;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
@@ -680,6 +696,59 @@ font-family: 'Rajdhani', sans-serif;
     animation-duration: 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
+}
+
+/*Contact*/
+
+.form {
+    text-align: center;
+}
+
+.form-container {
+    width: 80%;
+    margin: auto;
+}
+
+.input1 {
+    width: 80%;
+    color: black;
+    margin-top: 3px;
+}
+
+.input2 {
+    width: 80%;
+    height: 125px;
+    color: black;
+}
+
+#buttonplace {
+    width: 90%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+#buttonplace>.btn {
+    color: white;
+    background-color: darkgrey;
+    transition: .5s;
+    float: right;
+}
+
+#buttonplace>.btn:hover {
+    color: black;
+    background-color: aliceblue;
+    text-decoration: none;
+}
+
+.holder {
+    margin: none;
+}
+
+.form-container>p {
+    font-size: 20px;
+    text-align: right;
+    padding-right: 5vw;
+    color: white;
 }
 
 
