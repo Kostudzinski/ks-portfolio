@@ -169,9 +169,9 @@ function showSections() {
     var header4 = $(".header4");
     var position4 = header4.position();
     var input1 = $(".input1");
-    var input1_position = input1.position();    
+    var input1_position = input1.offset();    
     var input2 = $(".input2");
-    var input2_position = input2.position();
+    var input2_position = input2.offset();
     
 
     if ($(window).scrollTop() >= position.top - 400) {
