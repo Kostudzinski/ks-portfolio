@@ -5,7 +5,7 @@ $(document).ready(function () {
     showLogo();
     burgerMenu();
     scrollSlow();
-    underline();
+    showSections();
     showText();
     parallax();
     showIcons();
@@ -14,7 +14,7 @@ $(document).ready(function () {
 
 $(window).scroll(function () {
     showLogo();
-    underline();
+    showSections();
     showText()
     showIcons();
 });
@@ -159,7 +159,7 @@ function scrollSlow() {
     });
 };
 
-function underline() {
+function showSections() {
     var header = $(".header");
     var position = header.position();
     var header2 = $(".header2");
@@ -168,6 +168,11 @@ function underline() {
     var position3 = header3.position();
     var header4 = $(".header4");
     var position4 = header4.position();
+    var input1 = $(".input1");
+    var input1_position = input1.position();    
+    var input2 = $(".input2");
+    var input2_position = input2.position();
+    
 
     if ($(window).scrollTop() >= position.top - 400) {
 
@@ -199,6 +204,25 @@ function underline() {
 
     } else {
         header4.removeClass('show-letters');
+
+    }
+    
+    if ($(window).scrollTop() >= input1_position.top - 400) {
+        console.log('test1');
+        input1.addClass('show-input1');
+
+    } else {
+        console.log('test2');
+        input1.removeClass('show-input1');
+
+    }
+    
+    if ($(window).scrollTop() >= input2_position.top - 400) {
+        
+        input2.addClass('show-input2');
+
+    } else {
+        input2.removeClass('show-input2');
 
     }
 };
