@@ -207,7 +207,7 @@ function showSections() {
 
     }
     
-    if ($(window).scrollTop() >= input1_position.top - 400) {
+    if ($(window).scrollTop() >= input1_position.top - 500) {
         console.log('test1');
         input1.addClass('show-input1');
 
@@ -217,7 +217,7 @@ function showSections() {
 
     }
     
-    if ($(window).scrollTop() >= input2_position.top - 400) {
+    if ($(window).scrollTop() >= input2_position.top - 500) {
         
         input2.addClass('show-input2');
 
