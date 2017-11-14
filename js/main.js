@@ -238,7 +238,7 @@ function showText() {
         text.removeClass('show-text');
     }
 
-    if ($(window).scrollTop() >= text_position.top - 240) {
+    if ($(window).scrollTop() >= text_position.top - 220) {
 
         $('.CV').addClass('show-text');
 

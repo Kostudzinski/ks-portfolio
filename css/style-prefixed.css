@@ -128,6 +128,7 @@ font-family: 'Rajdhani', sans-serif;
     -webkit-box-shadow: 10px 10px 30px #232323;
             box-shadow: 10px 10px 30px #232323;
     border-left: 4px solid #606060;
+    font-size: 1.2vw;
 
 }
 
@@ -412,6 +413,10 @@ font-family: 'Rajdhani', sans-serif;
     background-color: #f7f7f7;
 }
 
+#about-me {
+    height: 130vh;
+}
+
 .header-name {
     text-align: center;
     font-size: 4vw;
@@ -455,17 +460,17 @@ font-family: 'Rajdhani', sans-serif;
 .text-about-me {
     opacity: 0;
     position: relative;
-    top: 100px;
+    top: 80px;
     -webkit-transition: 1s;
     -o-transition: 1s;
     transition: 1s;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .text-section {
     width: 50%;
     font-size: 1.5vw;
-    text-align: justify;
+    text-align: center;
     margin: auto;
 }
 
@@ -498,7 +503,7 @@ font-family: 'Rajdhani', sans-serif;
     text-decoration: none;
 }
 
-.CV:hover p{
+.CV>p:hover {
     background-color: #606060;
     color: #e7e7e7;
     text-decoration: none;
@@ -552,7 +557,6 @@ font-family: 'Rajdhani', sans-serif;
 
 .container-ikon-front {
     width: 70%;
-    padding-top: 50px;
     text-align: center;
     margin: auto;
 }
@@ -591,6 +595,8 @@ font-family: 'Rajdhani', sans-serif;
 
 .skill-text {
     padding-bottom: 50px;
+    width: 80%;
+    text-align: justify;
 }
 
 /*slider*/
