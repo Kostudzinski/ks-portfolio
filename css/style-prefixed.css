@@ -507,7 +507,7 @@ font-family: 'Rajdhani', sans-serif;
     text-decoration: none;
 }
 
-.CV>p:hover {
+.CV:hover p{
     background-color: #606060;
     color: #e7e7e7;
     text-decoration: none;
