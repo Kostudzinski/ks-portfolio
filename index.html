@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>KS Portfolio</title>
     <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-prefixed.css">
 
     <link href="https://fonts.googleapis.com/css?family=Changa:200|Poiret+One|Rajdhani:300|Roboto+Slab:100" rel="stylesheet">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
@@ -14,7 +14,7 @@
 
 <body>
     <section id="nav">
-       <a class="eng" href="">ENG</a>
+        <a class="eng" href="">ENG</a>
         <div class="nav-icon">
             <span></span>
             <span></span>
@@ -32,7 +32,7 @@
                 <a href="#portfolio">
                     <li class="nav-item">Portfolio</li>
                 </a>
-                <a href="contact">
+                <a href="#contact">
                     <li class="nav-item">Kontakt</li>
                 </a>
             </ol>
@@ -49,12 +49,12 @@
                 <div class="linked-icon icon"></div>
             </div>
         </a>
-        <a target="_blank" href="https://abstractvisionav.tumblr.com/">
+        <a target="_blank" href="https://github.com/Kostudzinski">
             <div class="social-icon github">
                 <div class="git-icon icon"></div>
             </div>
         </a>
-        <a target="_blank" href="https://github.com/Kostudzinski">
+        <a target="_blank" href="https://abstractvisionav.tumblr.com/">
             <div class="social-icon tumblr">
                 <div class="tumblr-icon icon"></div>
             </div>
@@ -169,6 +169,14 @@
                         <p class="slider-caption added">Strona przygotowana na kursie Akadademii 108, utworzona przy użyciu technologii HTML5, CSS, jQuery oraz Bootstrap</p>
                     </div>
                 </div>
+                
+                <div class="single-slide">
+                    <img src="img/Slider/Dextra.jpg" alt="">
+                    <div class="cover-dark">
+                        <p class="slider-caption links-portfolio"><a target="_blank" href="http://dextracentro.pl">Strona WWW</a></p>
+                        <p class="slider-caption added">Strona przygotowana na kursie Akadademii 108, utworzona przy użyciu technologii HTML5, CSS, jQuery oraz Bootstrap</p>
+                    </div>
+                </div>
 
                 <div class="single-slide">
                     <img src="img/Slider/slide4NEW.jpg" alt="">
@@ -193,37 +201,35 @@
             </div>
         </div>
     </section>
-    <div class="break reverse">
-        <div class="break-cover"> </div>
-    </div>
     <section id="contact" class="sections">
-    <h1 class="header-name header4">Kontakt</h1>
-       <div class="form-container">
-            <p>Konrad Studziński</p><br>
-            <p>Telefon: 693-726-769</p><br>
-            <p>e-mail: kostudzinski@gmail.com</p><br><br>
-            <form action="https://formspree.io/kostudzinski@gmail.com" method="POST">
-                <div class="row holder">
-                    <div class="col-lg-6 col-xs-12 form">
-                        <input class="input1" type="text" name="imie" placeholder="imię"><br><br>
-                        <input class="input1" type="text" name="nazwisko" placeholder="nazwisko"><br><br>
-                        <input class="input1" type="text" name="email" placeholder="e-mail"><br><br>
+        <div id="contact-cover">
+            <h1 class="header-name header4">Kontakt</h1>
+            <div class="form-container">
+                <p>Konrad Studziński</p><br>
+                <p>Telefon: 693-726-769</p><br>
+                <p>e-mail: kostudzinski@gmail.com</p><br><br>
+                <form action="https://formspree.io/kostudzinski@gmail.com" method="POST">
+                    <div class="row holder">
+                        <div class="col-lg-6 col-xs-12 form">
+                            <input class="input1" type="text" name="imie" placeholder="imię"><br><br>
+                            <input class="input1" type="text" name="nazwisko" placeholder="nazwisko"><br><br>
+                            <input class="input1" type="text" name="email" placeholder="e-mail"><br><br>
+                        </div>
+                        <div class="col-lg-6 col-xs-12 form">
+                            <textarea class="input2" type="textarea" name="wiadomosc" placeholder="wiadomosc"></textarea>
+                        </div>
+
+
+
                     </div>
-                    <div class="col-lg-6 col-xs-12 form">
-                        <textarea class="input2" type="textarea" name="wiadomosc" placeholder="wiadomosc"></textarea>
+
+                    <div id="buttonplace">
+                        <input type="submit" class="btn btn-primary">
                     </div>
 
-
-
-                </div>
-
-                <div id="buttonplace">
-                    <input type="submit" class="btn btn-primary">
-                </div>
-
-            </form>
+                </form>
+            </div>
         </div>
-        
     </section>
 
 
