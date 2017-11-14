@@ -73,6 +73,7 @@
     }
     #paint {
         right: 80px;
+        width: 120vw;
     }
     .break {
         background-attachment: inherit;
