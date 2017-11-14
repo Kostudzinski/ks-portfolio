@@ -467,6 +467,10 @@ font-family: 'Rajdhani', sans-serif;
     margin-top: 20px;
 }
 
+.text-section:hover span {
+    text-decoration: underline;
+}
+
 .text-section {
     width: 50%;
     font-size: 1.5vw;
