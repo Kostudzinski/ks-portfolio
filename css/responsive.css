@@ -25,10 +25,10 @@
 @media screen and (max-width: 680px) {
     .logo-container {
         left: 0;
-        width: 400px;
+        width: 50vw;
     }
     .logo-back {
-        width: 300px;
+        width: 50vw;
         background-size: contain;
         background-repeat: no-repeat;
 
@@ -121,13 +121,13 @@
         font-size: 8vw;
     }
     #contact {
-        height: 180vh;
+        height: 200vh;
         background-attachment: inherit;
         background-size: contain;
     }
     
     #contact-cover {
-        height: 140vh;
+        height: 200vh;
     }
     .input2 {
         margin-top: 20px;
