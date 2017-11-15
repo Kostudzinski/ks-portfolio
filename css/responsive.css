@@ -72,10 +72,13 @@
         font-size: 5vw;
     }
     .nav-icon {
-    width: 55px;
+    width: 45px;
     }
     .nav-item {
         font-size: 3.5vw;
+    }
+    .eng {
+        right: 80px;
     }
     .break {
         height: 200px;
