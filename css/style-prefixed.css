@@ -681,13 +681,23 @@ font-family: 'Rajdhani', sans-serif;
     transition: 1s;
 }
 
+.slider-caption>a {
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+        text-decoration: none;
+    color: white;
+}
+
 .added {
-    font-size: 1.8vw;
-    width: 70%;
-    top: 60%;
+    font-size: 2vw;
+    width: 60%;
+    margin: auto;
+    position: relative;
+    top: 30vw;
     text-align: center;
-    top: 50vw;
-/*    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
+    color: white;
+}
 }
 
 .single-slide .links-portfolio a {
