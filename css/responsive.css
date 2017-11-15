@@ -82,6 +82,8 @@
     }
     .break {
         height: 200px;
+        background-attachment: inherit;
+        background-size: 100%;
     }
     .CV {
     width: 40%;
@@ -96,7 +98,7 @@
         opacity: 1;
     }
     .added {
-    font-size: 3vw;
+    font-size: 4vw;
     width: 80%;
     margin: auto;
     position: relative;
@@ -106,7 +108,7 @@
 
     .slider-arrows div {
     top: 40vw;
-    font-size: 30px;
+    font-size: 40px;
     }
     #portfolio {
     height: 115vw;
@@ -116,9 +118,12 @@
     }
     .slider-caption {
     top: 12vw;
+        font-size: 8vw;
     }
     #contact {
-        height: 140vh;
+        height: 180vh;
+        background-attachment: inherit;
+        background-size: contain;
     }
     
     #contact-cover {
