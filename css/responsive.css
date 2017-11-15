@@ -25,7 +25,6 @@
 @media screen and (max-width: 680px) {
     .logo-container {
         left: 0;
-            background-size: contain;
         width: 400px;
     }
     .logo-back {
@@ -121,5 +120,8 @@
     
     #contact-cover {
         height: 140vh;
+    }
+    .input2 {
+        margin-top: 20px;
     }
 }

@@ -17,6 +17,7 @@ $(window).scroll(function () {
     showSections();
     showText()
     showIcons();
+    hideEng();
 });
 
 function intro() {
@@ -128,6 +129,16 @@ function showLogo() {
 
     } else {
         $('.main-logo').removeClass('show-letters');
+    }
+};
+
+function hideEng() {
+
+    if ($(window).scrollTop() >= 1000) {
+        $('.eng').removeClass('show-letters');
+
+    } else {
+        $('.eng').addClass('show-letters');
     }
 };
 
