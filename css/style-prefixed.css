@@ -234,7 +234,7 @@ font-family: 'Rajdhani', sans-serif;
 #paint {
     width: 100vw;
     height: 100vh;
-    background-image: url(../img/Paint.png);
+    background-image: url(../img/PaintDone.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     -webkit-transition: 25s;
@@ -399,7 +399,7 @@ font-family: 'Rajdhani', sans-serif;
 .break {
     width: 100vw;
     height: 300px;
-    background-image: url(../img/11d.jpg);
+    background-image: url(../img/PaintDone.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;

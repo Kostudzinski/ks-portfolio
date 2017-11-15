@@ -29,17 +29,32 @@
         width: 400px;
     }
     .logo-back {
-        width: 400px;
+        width: 300px;
         background-size: contain;
         background-repeat: no-repeat;
 
     }
     .text-section {
-        font-size: 2.8vw;
+        font-size: 4vw;
+        width: 80%;
     }
     .skill-icons {
         font-size: 3.5vw;
     }
+    
+    #social-media {
+    display: flex;
+    position: absolute;
+    bottom: -20px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    }
+    
+    #social-media>a {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
     .header-name {
         font-size: 8vw;
     }
@@ -49,34 +64,13 @@
     .ml5 {
         font-size: 5vw;
     }
-    
-    .social-icon {
-    width: 80px;
-    height: 80px;
-    }
-    
-    .icon {
-    width: 48px;
-    height: 48px;
-    }
-    .eng {
-    font-size: 40px;
-    right: 130px;
-    top: 15px;
-    }
     .nav-icon {
-    width: 75px;
-    height: 60px;
+    width: 55px;
     }
     .nav-item {
-        font-size: 2.4vw;
-    }
-    #paint {
-        right: 80px;
-        width: 120vw;
+        font-size: 3.5vw;
     }
     .break {
-        background-attachment: inherit;
         height: 200px;
     }
     .CV {
@@ -91,5 +85,28 @@
     .slider-arrows div {
     font-size: 70px;
     }
-    
+    .cover-dark {
+        opacity: 1;
+    }
+    .added {
+    font-size: 2.8vw;
+    width: 93%;
+    }
+    .slider-caption {
+        top: 30%;
+        font-size: 5.5vw;
+        
+    }
+    .slider-arrows div {
+    top: 10vw;
+    }
+    #portfolio {
+    height: 115vw;
+    }
+    .slider-arrows div {
+    font-size: 45px;
+    }
+    .fa {
+        color: #f7f7f7;
+    }
 }
