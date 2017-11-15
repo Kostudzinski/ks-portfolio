@@ -42,7 +42,11 @@
         font-size: 3.5vw;
     }
     
-    #social-media {
+    .social-media-up {
+        display: none;
+    }
+    
+    .social-media-down {
     display: flex;
     position: absolute;
     bottom: -20px;
@@ -50,9 +54,13 @@
     left: 50%;
     }
     
-    #social-media>a {
+    .social-media>a {
         margin-left: 15px;
         margin-right: 15px;
+    }
+    
+    #about-me {
+        height: 150vh;
     }
     
     .header-name {
@@ -82,27 +90,36 @@
     #slider {
         height: 60vw;
     }
-    .slider-arrows div {
-    font-size: 70px;
-    }
     .cover-dark {
         opacity: 1;
     }
     .added {
     font-size: 2.8vw;
     width: 93%;
+    margin: auto;
+    position: relative;
+    top: 20vw;
+    color: white;
     }
 
     .slider-arrows div {
-    top: 10vw;
+    top: 40vw;
+    font-size: 30px;
     }
     #portfolio {
     height: 115vw;
     }
-    .slider-arrows div {
-    font-size: 45px;
-    }
     .fa {
         color: #f7f7f7;
+    }
+    .slider-caption {
+    top: 10vw;
+    }
+    #contact {
+        height: 140vh;
+    }
+    
+    #contact-cover {
+        height: 140vh;
     }
 }

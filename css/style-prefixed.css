@@ -167,7 +167,7 @@ font-family: 'Rajdhani', sans-serif;
 
 /*social-media*/
 
-#social-media {
+.social-media {
     position: fixed;
     bottom: 0px;
     left: 20px;
@@ -190,6 +190,10 @@ font-family: 'Rajdhani', sans-serif;
     opacity: 0;
     -webkit-box-shadow: 7px 5px 20px #232323;
             box-shadow: 7px 5px 20px #232323;
+}
+
+.down-social {
+    display: none;
 }
 
 .icon {
@@ -634,7 +638,7 @@ font-family: 'Rajdhani', sans-serif;
     left: 0;
     right: 0;
     margin: 0 auto;
-    height: 50vw;
+    height: 100%;
     width: 100%;
     background-color: rgba(1, 1, 1, 0.8);
     opacity: 0;
@@ -681,6 +685,8 @@ font-family: 'Rajdhani', sans-serif;
     font-size: 1.8vw;
     width: 70%;
     top: 60%;
+    text-align: center;
+    top: 50vw;
 /*    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;*/
 }
 
@@ -749,6 +755,7 @@ font-family: 'Rajdhani', sans-serif;
     background-attachment: fixed;
     color: #fff;
     height: 120vh;
+    position: relative;
 }
 
 #contact-cover {
