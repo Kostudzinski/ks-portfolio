@@ -33,7 +33,6 @@
 
 @media screen and (max-width: 680px) {
     .logo-container {
-        left: 0;
         width: 50vw;
     }
     .logo-back {
@@ -92,6 +91,7 @@
     }
     .break {
         height: 200px;
+        background-attachment: inherit;
         background-size: 100%;
     }
     .CV {
