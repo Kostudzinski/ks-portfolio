@@ -22,7 +22,7 @@ $(window).scroll(function () {
 
 function intro() {
     $('#clouds').addClass('move-clouds');
-    $('#paint').addClass('move-paint');
+    $('.paint').addClass('move-paint');
     $('.black-cover').addClass('show-black');
     setTimeout(showName, 3000);
     setTimeout(designerDeveloper, 5000);
