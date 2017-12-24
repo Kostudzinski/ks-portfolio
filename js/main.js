@@ -1,7 +1,7 @@
 'use strict';
 
 $(document).ready(function () {
-    intro();
+    fullIntro();
     showLogo();
     burgerMenu();
     scrollSlow();
@@ -31,6 +31,15 @@ function intro() {
     setTimeout(showGit, 8200);
     setTimeout(showLinked, 8900);
     setTimeout(showArrow, 9500);
+}
+
+function hideWhiteCover() {
+    $('.white-cover').addClass('white-cover-hide');
+}
+
+function fullIntro() {
+    setTimeout(hideWhiteCover, 2000);
+    setTimeout(intro, 4000);
 }
 
 function showName() {

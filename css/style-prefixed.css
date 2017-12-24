@@ -396,6 +396,22 @@ a:hover {
     border-top: 22px solid #606060;
 }
 
+.white-cover {
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 15;
+    opacity: 1;
+    -webkit-transition: 4s;
+    -o-transition: 4s;
+    transition: 4s;
+}
+
+.white-cover-hide {
+    opacity: 0;
+}
+
 
 /*break*/
 
