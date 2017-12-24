@@ -92,7 +92,6 @@
     }
     .break {
         height: 200px;
-        background-attachment: inherit;
         background-size: 100%;
     }
     .CV {

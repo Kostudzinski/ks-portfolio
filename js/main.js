@@ -33,8 +33,13 @@ function intro() {
     setTimeout(showArrow, 9500);
 }
 
+function disappearWhiteCover () {
+    $('.white-cover').addClass('white-cover-none')
+}
+
 function hideWhiteCover() {
     $('.white-cover').addClass('white-cover-hide');
+    setTimeout(disappearWhiteCover, 4000);
 }
 
 function fullIntro() {
