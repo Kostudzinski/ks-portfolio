@@ -21,6 +21,7 @@ $(window).scroll(function () {
 });
 
 function intro() {
+    $('.header-main').addClass('show-the-header')
     $('#clouds').addClass('move-clouds');
     $('.paint').addClass('move-paint');
     $('.black-cover').addClass('show-black');
@@ -33,19 +34,9 @@ function intro() {
     setTimeout(showArrow, 9500);
 }
 
-function disappearWhiteCover () {
-    $('.white-cover').addClass('white-cover-none')
-}
-
-function hideWhiteCover() {
-    $('.white-cover').addClass('white-cover-hide');
-    $('.header-main').addClass('show-the-header');
-    setTimeout(disappearWhiteCover, 4000);
-}
-
 function fullIntro() {
-    setTimeout(hideWhiteCover, 1000);
-    setTimeout(intro, 3000);
+
+    setTimeout(intro, 1000);
 }
 
 function showName() {
