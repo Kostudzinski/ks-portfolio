@@ -39,12 +39,13 @@ function disappearWhiteCover () {
 
 function hideWhiteCover() {
     $('.white-cover').addClass('white-cover-hide');
+    $('.header-main').addClass('show-the-header');
     setTimeout(disappearWhiteCover, 4000);
 }
 
 function fullIntro() {
-    setTimeout(hideWhiteCover, 2000);
-    setTimeout(intro, 4000);
+    setTimeout(hideWhiteCover, 1000);
+    setTimeout(intro, 3000);
 }
 
 function showName() {
@@ -233,11 +234,9 @@ function showSections() {
     }
     
     if ($(window).scrollTop() >= input1_position.top - 500) {
-        console.log('test1');
         input1.addClass('show-input1');
 
     } else {
-        console.log('test2');
         input1.removeClass('show-input1');
 
     }
