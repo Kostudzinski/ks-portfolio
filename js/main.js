@@ -1,7 +1,7 @@
 'use strict';
 
 $(document).ready(function () {
-    fullIntro();
+    intro();
     showLogo();
     burgerMenu();
     scrollSlow();
@@ -32,11 +32,6 @@ function intro() {
     setTimeout(showGit, 8200);
     setTimeout(showLinked, 8900);
     setTimeout(showArrow, 9500);
-}
-
-function fullIntro() {
-
-    setTimeout(intro, 1000);
 }
 
 function showName() {
