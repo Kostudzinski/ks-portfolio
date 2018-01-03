@@ -94,6 +94,9 @@
         background-attachment: inherit;
         background-size: 100%;
     }
+    .break-cover {
+        height: 200px;
+    }
     .CV {
     width: 40%;
     height: 70px;
